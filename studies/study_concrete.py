@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 # Import the data
-dataset = pd.read_csv(r'c:/Users/Alec Vis/ML_Templates/data/concrete_data.csv')
+dataset = pd.read_csv(r'../data/concrete_data.csv')
 x = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
 
